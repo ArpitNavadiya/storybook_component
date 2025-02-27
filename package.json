@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "react-popper": "^2.3.0",
+    "styled-components": "^6.1.15"
+  },
+  "devDependencies": {
+    "@chromatic-com/storybook": "^3.2.4",
+    "@storybook/addon-essentials": "^8.6.0",
+    "@storybook/addon-interactions": "^8.6.0",
+    "@storybook/addon-onboarding": "^8.6.0",
+    "@storybook/addon-webpack5-compiler-swc": "^2.1.0",
+    "@storybook/blocks": "^8.6.0",
+    "@storybook/react": "^8.6.0",
+    "@storybook/react-webpack5": "^8.6.0",
+    "@storybook/test": "^8.6.0",
+    "prop-types": "^15.8.1",
+    "storybook": "^8.6.0"
+  },
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  }
+}
